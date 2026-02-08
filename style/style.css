@@ -47,8 +47,8 @@ header.container{
     font-family: fonte2;
     border-bottom: 1px solid rgba(128, 128, 128, 0.336);
 }
-header.container a{
-    font-family: fonte3;
+header.container h1 > a{
+    font-family: fonte5;
     color: #ae8526a1;
 }
 .ul-container{
