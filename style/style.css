@@ -1,0 +1,187 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 68px;
+    font-family: fonte2;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+}
+header.container h1{
+    font-size: 1.7em;
+    color: black;
+}
+.ul-container{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.ul-container > li > a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+.ul-container > li > a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.fundo-banner{
+    background-image: url(../img/Design\ sem\ nome.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 62px;
+}
+.fundo-banner h1{
+    font-family: fonte3;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 3em;
+}
+.text-banner{
+    display: flex;
+    color: white;
+    gap: 8px;
+    font-family: fonte4;
+    font-size: 1.3em;
+    margin-bottom: 25px;
+}
+.fundo-banner a {
+    text-decoration: none;
+    color: white;
+    font-family: fonte4;
+    padding: 0px 10px;
+
+}
+.explorar-banner{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 24px;
+}
+.explorar-banner span{
+    font-size: 1.5em;
+}
+.explorar-banner:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.explorar-banner:hover a{
+    color: black;
+    transition: 0.3s;
+}
+main h1{
+    text-align: center;
+    color: black;
+    font-family: fonte2;
+    margin-bottom: 48px;
+}
+.img-categorias{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 12px;
+}
+.feminino{
+    background-image: url(../img/feminino.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: fonte2;
+    letter-spacing: 4px;
+    flex-direction: column;
+}
+.feminino:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+}
+.feminino p {
+    font-size: .9em;
+}
+.masculino{
+    background-image: url(../img/masculino.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: fonte2;
+    letter-spacing: 4px;
+    flex-direction: column;
+}
+.masculino:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+}
+.masculino p {
+    font-size: .9em;
+}
+.acessorios{
+    background-image: url(../img/acessorios3.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: fonte2;
+    letter-spacing: 4px;
+    flex-direction: column;
+}
+.acessorios:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+}
+.acessorios p {
+    font-size: .9em;
+}
+.tittle-destaque{
+    text-align: center;
+    margin: 120px 0px 48px 0px;
+    font-family: fonte2;
+}
+.destaques img{
+    width: 320px;
+    width: 340px;
+}
+.destaques{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 12px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.produto{
+    font-family: fonte2;
+    font-size: .9em;
+}
+.produto h3{
+    padding: 8px 0px;
+}
+
+
+
