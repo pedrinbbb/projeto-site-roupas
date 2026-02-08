@@ -47,8 +47,8 @@ header.container{
     font-family: fonte2;
     border-bottom: 1px solid rgba(128, 128, 128, 0.336);
 }
-header.container h1{
-    font-size: 1.7em;
+header.container a{
+    
     color: black;
 }
 .ul-container{
@@ -65,7 +65,7 @@ header.container h1{
     transition: 0.3s;
 }
 .fundo-banner{
-    background-image: url(../img/Design\ sem\ nome.png);
+    background-image: url(../img/bannerfundo2.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,7 @@ header.container h1{
     align-items: center;
     gap: 16px;
     margin-bottom: 62px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.61);
 }
 .fundo-banner h1{
     font-family: fonte3;
@@ -128,14 +129,15 @@ main h1{
     justify-content: center;
     gap: 25px;
     padding: 12px;
+    text-align: center;
 }
 .feminino{
     background-image: url(../img/feminino.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
-    height: 60vh;
+    width: 30%;
+    height: 56vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,8 +158,8 @@ main h1{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
-    height: 60vh;
+    width: 30%;
+    height: 56vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,8 +180,8 @@ main h1{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
-    height: 60vh;
+    width: 30%;
+    height: 56vh;
     display: flex;
     justify-content: center;
     align-items: center;
