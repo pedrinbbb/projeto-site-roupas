@@ -20,7 +20,7 @@
             width: 200px;
         }
      }
-     @media (max-width: 460px) {
+     @media (max-width: 570px) {
         .produto img{
             width: 300px;
         }
