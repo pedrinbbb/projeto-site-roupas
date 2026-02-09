@@ -243,5 +243,18 @@ main h1{
 .footer-col h2{
     margin-bottom: 25px;
 }
+input#pesquisa{
+    display: block;
+    margin: 0 auto 48px auto;
+    padding: 12px 16px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 4px;
+    outline: none;
+}
+input#pesquisa:focus{
+    border-color: rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.178);
+}
 
 

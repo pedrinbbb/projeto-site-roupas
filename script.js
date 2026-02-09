@@ -8,3 +8,4 @@ function abrirMenu(){
         function fecharMenu(){
             document.querySelector('.menu').style.width = '0px'
         }
+        

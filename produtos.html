@@ -52,7 +52,7 @@
         <nav class="menu">
             <a href="index.html">HOME</a>
             <a href="categorias.html">CATEGORIAS</a>
-            <a href="#">PRODUTOS</a>
+            <a href="produtos.html">PRODUTOS</a>
             <a href="#">CONTATO</a>
 
         </ul>
@@ -60,16 +60,37 @@
     </header>
     <main>
         <h1>TODOS OS PRODUTOS</h1>
+        <input 
+        type="text" 
+        id="pesquisa" 
+        placeholder="Pesquisar produtos..."
+        onkeyup="pesquisarProduto()">
+
             <section class="destaques">
                 <div class="destaques">
                     <div class="produto">
                         <img src="img/roupas.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
+                        <h3>CAMISETA PRETA</h3>
                         <p>R$ 89,90</p>
                     </div>
                     <div class="produto">
                         <img src="img/roupas2.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
+                        <h3>TESTE</h3>
+                        <p>R$ 89,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="img/roupas3.jpeg">
+                        <h3>TESTE3</h3>
+                        <p>R$ 89,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="img/roupas.jpeg">
+                        <h3>ROSA</h3>
+                        <p>R$ 89,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="img/roupas2.jpeg">
+                        <h3>VERDE ESCURO</h3>
                         <p>R$ 89,90</p>
                     </div>
                     <div class="produto">
@@ -84,32 +105,53 @@
                     </div>
                     <div class="produto">
                         <img src="img/roupas2.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
+                        <h3>PULSEIRA</h3>
                         <p>R$ 89,90</p>
                     </div>
                     <div class="produto">
                         <img src="img/roupas3.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
-                        <p>R$ 89,90</p>
-                    </div>
-                    <div class="produto">
-                        <img src="img/roupas.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
-                        <p>R$ 89,90</p>
-                    </div>
-                    <div class="produto">
-                        <img src="img/roupas2.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
-                        <p>R$ 89,90</p>
-                    </div>
-                    <div class="produto">
-                        <img src="img/roupas3.jpeg">
-                        <h3>CAMISETA ESSENTIAL BRANCA</h3>
+                        <h3>BRINCO PONTO DE LUZ</h3>
                         <p>R$ 89,90</p>
                     </div>
                 </div>
             </section>  
     </main>
+    <footer class="footer-container">
+        <div class="footer-col">
+            <h2>NANDA ALVES</h2>
+            <p>Roupas básicas e essenciais para quem valoriza a simplicidade e qualidade.</p>
+        </div>
+        <div class="footer-col">
+            <h2>Produtos</h2>
+            <ul class="footer-list">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Whatsapp</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h2>Contato</h2>
+            <p>contato@gmail.com</p>
+            <p>(85) 90000-0000</p>
+        </div>
+    </footer>
         <script src="script.js"></script>
+        <script>
+            function pesquisarProduto() {
+            const input = document.getElementById('pesquisa');
+            const filtro = input.value.toLowerCase();
+            const produtos = document.querySelectorAll('.produto');
+
+            produtos.forEach(produto => {
+                const nomeProduto = produto.querySelector('h3').textContent.toLowerCase();
+
+                if (nomeProduto.includes(filtro)) {
+                    produto.style.display = 'block';
+                } else {
+                    produto.style.display = 'none';
+                }
+            });
+        }
+
+        </script>
 </body>
 </html>
