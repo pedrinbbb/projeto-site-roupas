@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .menu a{
     text-decoration: none;
 }
@@ -49,7 +50,8 @@ header.container{
 }
 header.container h1 > a{
     font-family: fonte5;
-    color: #ae8526a1;
+    color: wheat;
+    font-size: 0.9em;
 }
 .ul-container{
     display: flex;
@@ -80,7 +82,7 @@ header.container h1 > a{
 .fundo-banner h1{
     font-family: fonte3;
     letter-spacing: 4px;
-    color: white;
+    color: wheat;
     font-size: 3em;
 }
 .text-banner{
