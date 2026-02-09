@@ -45,7 +45,7 @@ header.container{
     align-items: center;
     padding: 17px 50px;
     font-family: fonte2;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.103);
 }
 header.container h1 > a{
     font-family: fonte5;
@@ -65,8 +65,8 @@ header.container h1 > a{
     transition: 0.3s;
 }
 .fundo-banner{
-    background-image: url(../img/bannerfundo2.png);
-    background-position: top center;
+    background-image: url(../img/bannerfundo3\ .png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 82vh;
@@ -76,8 +76,6 @@ header.container h1 > a{
     align-items: center;
     gap: 16px;
     margin-bottom: 62px;
-    
-    
 }
 .fundo-banner h1{
     font-family: fonte3;
@@ -133,7 +131,7 @@ main h1{
     text-align: center;
 }
 .feminino{
-    background-image: url(../img/feminino.png);
+    background-image: url(../img/feminino3.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,7 +203,7 @@ main h1{
 }
 .destaques img{
     width: 320px;
-    width: 340px;
+    max-height: 400px;
 }
 .destaques{
     display: flex;
@@ -222,6 +220,28 @@ main h1{
     max-width: 200px;
     padding: 8px 0px;
 }
-
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #000000;
+    color: white;
+    font-family: fonte2;
+    padding: 36px 28px;
+    margin-top: 100px;
+}
+.footer-container a{
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
+}
+.footer-col p{
+    max-width: 350px;
+    padding: 6px 0px;
+}
+.footer-col h2{
+    margin-bottom: 25px;
+}
 
 
