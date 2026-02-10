@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 #btn-abrir{
-    color: black;
+    color: rgba(5, 5, 5, 0.699);
     font-size: 24px;
     display: none;
 }
@@ -21,7 +21,7 @@ nav{
     opacity: 1;
     background-color: rgb(255, 255, 255);
     position: fixed;
-    top: 67px;
+    top: 0px;
     right: 0;
     z-index: 1;
     overflow: hidden;
@@ -226,11 +226,10 @@ main h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
     background-color: #000000;
     color: white;
     font-family: fonte2;
-    padding: 36px 28px;
+    padding: 13px 28px;
     margin-top: 100px;
 }
 .footer-container a{
@@ -241,9 +240,15 @@ main h1{
 .footer-col p{
     max-width: 350px;
     padding: 6px 0px;
+    color: rgb(182, 182, 182);
+}
+.footer-col a{
+    color: rgb(182, 182, 182);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.377);
 }
 .footer-col h2{
-    margin-bottom: 25px;
+    margin-bottom: 8px;
+    margin-top: 25px;
 }
 input#pesquisa{
     display: block;

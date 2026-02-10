@@ -9,3 +9,4 @@ function abrirMenu(){
             document.querySelector('.menu').style.width = '0px'
         }
         
+        
