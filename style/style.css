@@ -63,10 +63,10 @@ header.container h1 > a{
 .ul-container > li > a{
     text-decoration: none;
     color: rgb(97, 97, 97);
+    transition: 0.5s;
 }
 .ul-container > li > a:hover{
     color: black;
-    transition: 0.3s;
 }
 .fundo-banner{
     background-image: url(../img/bannerfundo3\ .png);
@@ -100,6 +100,7 @@ header.container h1 > a{
     color: white;
     font-family: fonte4;
     padding: 0px 10px;
+    transition: 0.3s;
 
 }
 .explorar-banner{
@@ -108,6 +109,7 @@ header.container h1 > a{
     align-items: center;
     color: white;
     padding: 10px 24px;
+    transition: 0.3s;
 }
 .explorar-banner span{
     font-size: 1.5em;
@@ -115,11 +117,9 @@ header.container h1 > a{
 .explorar-banner:hover{
     background-color: white;
     color: black;
-    transition: 0.3s;
 }
 .explorar-banner:hover a{
     color: black;
-    transition: 0.3s;
 }
 main h1{
     text-align: center;
@@ -148,10 +148,10 @@ main h1{
     font-family: fonte2;
     letter-spacing: 4px;
     flex-direction: column;
+    transition: 0.5s;
 }
 .feminino:hover{
     transform: scale(1.03);
-    transition: 0.6s;
 }
 .feminino p {
     font-size: .9em;
@@ -170,10 +170,10 @@ main h1{
     font-family: fonte2;
     letter-spacing: 4px;
     flex-direction: column;
+    transition: 0.6s;
 }
 .masculino:hover{
     transform: scale(1.03);
-    transition: 0.6s;
 }
 .masculino p {
     font-size: .9em;
@@ -192,10 +192,10 @@ main h1{
     font-family: fonte2;
     letter-spacing: 4px;
     flex-direction: column;
+    transition: 0.6s;
 }
 .acessorios:hover{
     transform: scale(1.03);
-    transition: 0.6s;
 }
 .acessorios p {
     font-size: .9em;
